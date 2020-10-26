@@ -5,8 +5,8 @@
 }
 :root {
     --primary-color:  rgb(66, 123, 245) ;
-    --secondary-color: rgb(166, 223, 49) ;
-    --accent-color: rgb(236, 234, 145);
+    --secondary-color: rgb(0, 120, 120) ;
+    --accent-color: rgb(100, 100, 100);
 }
 body{
     color: var(--secondary-color);
@@ -26,6 +26,10 @@ header{
     background-position: 80%;
     background-attachment: fixed;
     z-index: 9999;
+}
+
+a:link{
+    color: black;
 }
 header h1 {
     font-weight: bold;
